@@ -10,7 +10,7 @@ Original file is located at
 
 ### Let's mount the google drive
 """
-
+!pip install google
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -174,7 +174,7 @@ q9_list=q9.collect()
 lables=[row['genre']for row in q9_list]
 counts=[row['count']for row in q9_list]
 
-
+counts=[row['count']for row in q9_list]
 
 """Now, let's visualize the results using ***matplotlib***"""
 
